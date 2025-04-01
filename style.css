@@ -1,0 +1,102 @@
+body{
+    background-image:url(images/grayy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg-color: #ffffff;
+    --snd-bg-color: #d5fdf9;
+    --text-color: #aaa3a3;
+    --main-color: #30312c;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    background: var(--bf-color);
+    backdrop-filter: blur (10px);
+    transition: all 0.5s ease;
+}
+.navbar a {
+    font-size: 1.9rem;
+    color: var(--bg-color);
+    margin-left: 4rem;
+    font-weight: 700;
+    transition: 0,3s ease;
+    background: var(--text-color);
+}
+.navbar a:hover,
+.navbar a.active{
+    color: var(--bg-color)
+}
+
+h1{
+    text-align: start;
+    font-family: verdana ;
+}
+h2 {
+    font-family: courier;
+    font-size: xxx-large;
+    text-align-last: center;
+}
+p{
+    margin-right: 450px;
+    font-size: x-large;
+    text-align: justify;
+}
+h3{
+    color:rgb(30, 30, 30);
+    font-family: courier;
+    font-size:x-large;
+    font-weight: 1000;
+}
+.wrapper {
+    margin: 0 auto;
+    margin-top: 160px;
+    width: 1200px   
+}
+
+.images-face {
+    width: 400px;
+    border-radius: 15px;
+    float: right;
+}
+
+.images-mm1 {
+    width: 400px;
+    border-radius: 20px;
+    padding: 120px 100px 300px 50px;
+    float: left;
+    margin-top: -100px;
+}
+.images-mm2 {
+    width: 400px;
+    border-radius: 20px;
+    padding: 1px 100px 300px 50px;
+    float: right;
+    margin-top: -315px;
+}
+.address {
+    padding: 50px ;
+    text-align: left;
+    margin-right: 100px;
+    text-align-last: center;
+    margin-top: 500px;
+}   
+.hobbies {
+    padding: 0px;
+}
+h3 {
+    text-align: center;
+}
+.socials {
+    text-align: center;
+}
